@@ -1,12 +1,15 @@
 import React from 'react';
-// import { render } from 'react-dom';
 
- class Clock extends React.Component {
+ export default class Clock extends React.Component {
+    constructor(props) {
+        super(props)
+        
+    }
 
     render() {
         console.log("in render");
         return(
-            <h1>Clock</h1>
+            <><h1>Clock</h1></>
         );
     }
 }
@@ -18,4 +21,4 @@ import React from 'react';
 //         );
 // }
 
-export default Clock;
+// export default Clock;
